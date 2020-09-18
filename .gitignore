@@ -1,0 +1,8 @@
+build
+dist
+node_modules
+.vscode
+*.pem
+report*.json
+.env
+.env.development

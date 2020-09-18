@@ -1,0 +1,237 @@
+.center{
+    margin: 0 auto;
+    width: 80%;
+    text-align: justify;
+    background-color: #F5F5F6;
+    color: #000051;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/**
+    Styles for Bootstrap 4 Table arrows order
+**/
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+  }
+  
+  .dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+    border-top: 0;
+    border-bottom: 4px dashed;
+    border-bottom: 4px solid \9;
+    content: "";
+  }
+
+  /**
+    END: Styles Bootstrap 4 Table
+  **/
+
+@font-face {
+    font-family: cinzel;
+    src: url("../fonts/Cinzel/Cinzel-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: cinzel-black;
+    src: url("../fonts/Cinzel/Cinzel-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: cinzel-bold;
+    src: url("../fonts/Cinzel/Cinzel-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: raleway;
+    src: url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: raleway-bold;
+    src: url("../fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+}
+
+h1{
+    font-family: cinzel-bold;
+}
+
+/* h2{
+    font-family: cinzel-bold;
+}
+ */
+h2{
+    font-family: roboto-medium;
+}
+
+h3{
+    font-family: cinzel-bold;
+}
+
+/* h4{
+    font-family: cinzel-bold;
+} */
+
+h4{
+    font-family: roboto-medium;
+}
+
+.grid line{
+    /*stroke: rgb(204, 204, 204);*/
+    stroke: #FAFAFB;
+}
+
+.header-group-stats{
+    font-size: 18pt;
+    border-radius: 0.5em 0.5em 0em 0em; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.showGames{
+    display: block;
+}
+
+/* svg rect {
+    fill: #FF1AFF;
+} */
+
+svg text {
+    fill:white;
+    font: 10px sans-serif;
+    text-anchor: end;
+}
+
+.table-cell{
+    font-size: 11pt;
+}
+
+.table-header{
+    background-color: #354560;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12pt
+}
+
+.title-header{
+    border-radius: 0.25em;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #091e36;
+    padding: 0.5em
+}
+
+.title-header-2{
+    border-radius: 0.25em;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: "bold";
+    background-color: #354560;
+    padding: 0.25em;
+}
+
+.tooltip-player {
+    position: absolute;
+    font-size: 10pt;
+    width:  auto;
+    height: auto;
+    pointer-events: none;
+    padding: 5px;
+    background-color: lightsteelblue;
+}
+
+.negrita-13pt{
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+/**
+Bar Chart Graphic
+**/
+.single-bar {
+    fill: #ffc107;
+  }
+  
+  .label {
+    fill: white;
+    font-size: 9pt;
+    font-weight: 400;
+    text-anchor: middle;
+  }
+  
+  .gridLine line {
+    stroke: #b8b7b7;
+    stroke-width: 0.05em;
+  }
+
+  /**
+  Half Donut Graphic
+  **/
+  .label-half-donut {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    fill: rgb(255, 255, 255);
+  }
+  
+  .title-half-donut {
+    font-size: 12pt;
+    font-weight: bold;
+    fill: rgb(255, 255, 255);
+  }
+
+  /**
+  Multiple Bar Chart
+  **/
+
+  .label-multiple-bar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    fill: rgb(255, 255, 255);
+    text-align: end;
+    text-anchor: middle;
+  }
+
+  /**
+  Statistics menu
+  **/
+
+  .header-title-stats{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #091E36; 
+    border-radius: 0.5em;
+    font-size: 14pt;
+  }
+
+/**
+Tables of Statistics section
+*/
+  .footer-class{
+      font-size: 10pt !important;
+      background-color: #ffc107;
+      text-align: center;
+  }
+
+  /**
+  ScatterPlot2
+  */
+  .text-legend {
+    color: #ffffff;
+    font-size: 10pt;
+  }

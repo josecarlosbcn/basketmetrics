@@ -1,0 +1,17 @@
+.fondo-submenu{
+    background-color: #354560;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+.submenu{
+    font-weight: bold !Important;
+    color: #F5F5F6 !Important;
+}
+
+.submenu-active{
+    background-color: #FFFFFF !Important;
+    color: #091e36 !Important;
+}
