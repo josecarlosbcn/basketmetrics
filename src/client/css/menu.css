@@ -1,0 +1,19 @@
+.menu{
+    /*background-color: #FFFFFF;*/
+    font-weight: bold !Important;
+    color: #F5F5F6 !Important;
+}
+
+.menu-active{
+    background-color: #FFFFFF !Important;
+    color: #000051 !Important;
+}
+
+.fondo-menu{
+    background-color: #091e36;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

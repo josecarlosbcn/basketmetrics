@@ -1,0 +1,90 @@
+@font-face {
+    font-family: roboto-medium;
+    src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype");
+}
+
+.header{
+    width: 100%;
+    background-color: #000011;
+    color: #FF19EF;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.text-logo{
+    color: #FF19EF;
+    font-size: 36pt;
+    font-weight: bold;
+    font-family: roboto-medium;
+}
+
+@media(min-width: 1200px){
+    .text-logo{
+        color: #FF19EF;
+        font-size: 36pt;
+        font-weight: bold;
+        font-family: roboto-medium;
+    }  
+ }
+
+@media(min-width: 992px){
+    .text-logo{
+        color: #FF19EF;
+        font-size: 36pt;
+        font-weight: bold;
+        font-family: roboto-medium;
+    }
+}
+
+@media(min-width: 768px){
+    .text-logo{
+        color: #FF19EF;
+        font-size: 36pt;
+        font-weight: bold;
+        font-family: roboto-medium;
+    }
+}
+
+@media(min-width: 576px){
+    .text-logo{
+        color: #FF19EF;
+        font-size: 36pt;
+        font-weight: bold;
+        font-family: roboto-medium;
+    }  
+}
+
+@media(max-width: 767.98px){
+    .text-logo{
+        color: #FF19EF;
+        font-size: 36pt;
+        font-weight: bold;
+        font-family: roboto-medium;
+    }
+}
+
+@media(max-width: 575.98px){
+    .text-logo{
+        color: #FF19EF;
+        font-size: 20pt;
+        font-weight: bold;
+        font-family: roboto-medium;
+    }
+}
+
+.sub-title{
+    color: #FF19EF;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: roboto-medium;    
+}
+
+@media(max-width: 575.98px){
+    .sub-title{
+        color: #FF19EF;
+        font-size: 12pt;
+        font-weight: bold;
+        font-family: roboto-medium;    
+    }
+}
